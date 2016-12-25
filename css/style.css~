@@ -1,0 +1,145 @@
+
+@font-face{
+	font-family:coda;
+	src:url(../fonts/Coda-Regular.ttf);
+}
+@font-face{
+	font-family:jose;
+	src:url(../fonts/JosefinSans-SemiBold.ttf);
+}
+body{
+	font-family: coda;
+	background-image: url(../images/slide1.jpg);
+	transition: all .9s ease;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+/* Navbar styles start here */
+
+.navbar{
+	background: crimson;
+	box-shadow: 1px 1px 2px #888;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: crimson;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+}
+.heading{
+	text-align: center;
+	text-transform: uppercase;
+}
+hr{
+	width:50px;
+}
+.content{
+	text-align: justify;
+	height: 180px;
+	font-size: 17px;
+}
+p{
+	font-family: jose;
+}
+.nor{
+	background-color: rgba(255,255,255,0.9);
+	transition: all .9s ease;
+	border:1px solid crimson;
+	color: black;
+}
+.bline{
+	border-top: 2px solid black;
+}
+.nor :hover{
+	background-color: crimson;
+	color: white;
+	transition: all .9s ease;
+	cursor: pointer;
+}
+.spl{
+	background-color: rgba(0,0,0,0.9);;
+	transition: all .9s ease;
+	color: white;
+}
+.spl > hr{
+	border-top: 2px solid white;
+}
+.spl:hover{
+	background-color: white;
+	color: black;
+	transition: all .9s ease;
+	border:1px solid black;
+	cursor: pointer;
+}
+.carousel-para{
+	font-family: jose;
+	letter-spacing: 4px;
+	font-size: 15px;
+	text-transform: uppercase;
+
+}
+.carousel-control{
+	opacity: 0;
+}
+.carousel-control:hover{
+	opacity: 0;
+}
+
+.left-icon{
+	background: #000 url("../images/left-arrow-white.png") no-repeat 8px 13px;
+	position: absolute;
+	opacity: 0.1;
+	transition: all .9s ease;
+	top:35%;
+	left: 0;
+	height: 70px;
+	width: 40px;
+
+}
+.left-icon:hover{
+	opacity: 0.8;
+	transition: all .9s ease;
+}
+
+.right-icon{
+	background: #000 url("../images/right-arrow-white.png") no-repeat 8px 13px;
+	position: absolute;
+	opacity: 0.1;
+	transition: all .9s ease;
+	top:35%;
+	right: 0;
+	height: 70px;
+	width: 40px;
+
+}
+.right-icon:hover{
+	opacity: 0.8;
+	transition: all .9s ease;
+}
+a{
+	color: white;
+	line-height:20px;
+}
